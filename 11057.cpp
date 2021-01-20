@@ -1,9 +1,9 @@
 
 
 /*
- ¹éÁØ 11057 ¿À¸£¸·¼ö
-
- ½Ã°£ÃÊ°ú
+ ë°±ì¤€ 11057 ì˜¤ë¥´ë§‰ìˆ˜
+ 
+ ì‹œê°„ì´ˆê³¼
 
 */
 
@@ -19,12 +19,6 @@ int result;
 void dfs(vector<int>& v,int prev) {
 	if (v.size() == n) {
 		cnt++;
-		/*
-		for (int i = 0; i < v.size(); i++) {
-			cout << v[i];
-		}
-		cout << '\n';
-		*/
 		return;
 	}
 	else {
